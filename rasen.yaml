@@ -1,0 +1,33 @@
+rasen_product_id: ai-risk-diagnosis
+growth_os_repo: watchout/rasen
+owner: IYASAKA
+current_stage: offer_design
+
+primary_offer: AI案件 受注前リスク診断
+active_campaign: 2026-06-ai-risk-diagnosis
+
+commercial_product:
+  name: AI Deal OS
+  japanese_name: AI案件 収益化OS
+  role: Aun Stack の商用入口。AI案件の受注前診断、提案、見積、納品設計を標準化する。
+
+human_approval_required: true
+
+human_approval_gates:
+  - sending_dms
+  - sending_proposals
+  - changing_prices
+  - making_guarantee_claims
+  - using_customer_names
+  - publishing_case_studies
+  - signing_contracts
+  - sending_invoices
+  - accepting_scope_changes
+
+agent_instructions:
+  - Read AGENTS.md in watchout/rasen first.
+  - Read products/ai-risk-diagnosis/product.yaml in watchout/rasen before editing growth-side content.
+  - Treat watchout/rasen as the growth and offer source of truth.
+  - Treat this repository as the product, implementation, and AgentOps source of truth.
+  - Do not duplicate all Rasen campaign files here.
+  - If Rasen creates a sales-side requirement, convert it into Aun Stack product requirements or implementation issues here.
